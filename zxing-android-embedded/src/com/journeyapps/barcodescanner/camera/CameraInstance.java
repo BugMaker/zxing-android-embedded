@@ -91,6 +91,10 @@ public class CameraInstance {
         return cameraManager.getCameraRotation();
     }
 
+    public boolean isTorchOn(){
+        return cameraManager.isTorchOn();
+    }
+
     public void open() {
         Util.validateMainThread();
 
